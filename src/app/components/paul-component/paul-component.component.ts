@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaulComponentComponent implements OnInit {
 
+  visibility:boolean = true
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleVisibility(){
+    this.visibility = !this.visibility;
   }
 
 }
