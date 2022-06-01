@@ -1,0 +1,31 @@
+.grid-container{
+    margin-top: 3em;
+    display: inline-flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5em;
+  }
+  
+  .game{
+    text-align: center;
+    background-image: url("..\..\..\assets\wasteland.jpg");
+    background-size: cover;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-width: 1em;
+    border-style:ridge;
+    border-color: rgb(63, 60, 12);
+    border-radius: 1em;
+    background-color: burlywood;
+  }
+
+
+  .link { 
+      font-size: 16px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+
+    .img-header{
+        image-resolution: ;
+    }
