@@ -33,4 +33,10 @@
 .title{
     text-align: center;
 }
+.bck{
+    background-image: url("../../../assets/624d68fa04f60_o_large.jpg");
+    background-size: cover;
+   
+
+}
 
