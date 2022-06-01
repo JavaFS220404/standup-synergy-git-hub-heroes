@@ -1,0 +1,36 @@
+.grid-container{
+    margin-top: 3em;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5em;
+}
+
+.card{
+    text-align: center;
+    margin-left: 2em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    width: 20em;
+    height: 15em;
+    background-color: rgba(26, 95, 26, 0.904);
+}
+
+.btn{
+    position: absolute;
+    top:50%;
+    background-color:#2c752f;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+
+}
+.btn:hover {
+    background-color:#b38f43;
+    transition: 0.7s;
+}
+
+.title{
+    text-align: center;
+}
+

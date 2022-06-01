@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KasiaComponentComponent implements OnInit {
 
+  visibility:boolean = true
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toggleVisibility(){
+    this.visibility = !this.visibility;
+  }
 }
+  
+
+
