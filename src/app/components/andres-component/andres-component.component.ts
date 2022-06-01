@@ -12,4 +12,10 @@ export class AndresComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  visibility: boolean = true;
+
+  toggleVisibility() {
+    this.visibility = !this.visibility;
+  }
+
 }
