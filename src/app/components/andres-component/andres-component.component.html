@@ -1,1 +1,26 @@
-<p>andres-component works!</p>
+<br>
+<div class="header-background1" id="header-background1">
+  <img src="../../../assets/dark-image1.jpg" width="1400" height="300" />
+</div>
+<br>
+
+<div class="header">
+  <h3>Dark: Andres's favorite TV Series</h3>
+</div>
+
+<div id="about">
+  <p>About:</p>
+  <p>
+    Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese. It
+    ran for three seasons from 2017 to 2020. In the aftermath of a child's disappearance, Dark follows characters from the
+    fictional German town of Winden as they pursue the truth. They follow connections between four estranged families to
+    unravel a sinister time travel conspiracy which spans several generations. The series explores the existential
+    implications of time and its effect on human nature.
+  </p>
+</div>
+<button (click)="toggleVisibility()">Show Character Family Tree</button>
+
+<div class="characters" [hidden]="visibility">
+  <br>
+  <img src="../../../assets/dark-family-tree.jpeg" width="1200" height="800" />
+</div>
