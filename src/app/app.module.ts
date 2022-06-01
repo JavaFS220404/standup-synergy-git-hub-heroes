@@ -9,7 +9,6 @@ import { PaulComponentComponent } from './components/paul-component/paul-compone
 import { NicolaeComponentComponent } from './components/nicolae-component/nicolae-component.component';
 import { KasiaComponentComponent } from './components/kasia-component/kasia-component.component';
 import { VijayaComponentComponent } from './components/vijaya-component/vijaya-component.component';
-import { HomeComponentComponent } from './components/home-component/home-component.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { HomeComponentComponent } from './components/home-component/home-compone
     PaulComponentComponent,
     NicolaeComponentComponent,
     KasiaComponentComponent,
-    VijayaComponentComponent,
-    HomeComponentComponent
+    VijayaComponentComponent
   ],
   imports: [
     BrowserModule,
